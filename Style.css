@@ -1,0 +1,318 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  background-color: #364f6b;
+  justify-content: space-around;
+  padding: 20px 0;
+  color: white;
+  height: 80px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav .profile {
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 2px;
+  font-size: 26px;
+  font-style: italic;
+}
+
+h4 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+  width: 100%;
+  line-height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+}
+nav ul li a {
+  color: rgb(255, 245, 245);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+nav ul li a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  display: inline;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  left: -5px;
+  top: -3px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Home */
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #364f6b;
+}
+
+.biodata p {
+  font-family: "comic sans ms";
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 25px;
+}
+
+/*Pendidikan*/
+
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.img-pendidikan {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foto {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.foto img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.foto p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+/* Jadwal Kuliah*/
+th {
+  color: #ffffff;
+  background-color: #336699;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  font-size: 12pt;
+}
+
+td {
+  color: black;
+  background-color: #e6e6fa;
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  font-size: 12pt;
+}
+
+.break td {
+  color: black;
+  background-color: yellow;
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
+  font-size: 12pt;
+}
+
+/* Aktivitas */
+.aktivitas-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aktivitas {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.aktivitas img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.aktivitas p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+.sertifikat-font h2 {
+  font-family: "comic sans ms";
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+
+.img-sertifikat {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sertifikat {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.sertifikat img {
+  width: 70%;
+}
+
+.sertifikat p {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+  color: #364f6b;
+}
+
+/*footer*/
+.footer2 {
+  background-color: #2f5167;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: white;
+}
+
+.row {
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.footer2 hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.footer2 hr.small {
+  margin: 20px 0;
+}
+
+.footer2 h6 {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.footer2 a {
+  color: #737373;
+}
+
+.footer2 a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links {
+  padding-left: 0;
+  padding-bottom: 5px;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.footer-links a {
+  color: #ffffff;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+.copyright-text {
+  text-align: center;
+}
+
+.copyright-text {
+  margin: 0;
+}
